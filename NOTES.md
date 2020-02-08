@@ -5,3 +5,4 @@
 5. In TypeScript `default` is not being used in export statements to avoid using curly braces in import statements.
 6. Generate API key via https://console.developers.google.com
 7. Enable `Maps JavaScript API` in the dev console.
+8. Install typed definition for google maps: `npm i @types/googlemaps`.
