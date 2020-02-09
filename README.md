@@ -16,11 +16,23 @@ This app is based on following tutorial: https://www.udemy.com/course/typescript
 ## Getting started
 
 ```shell
-$ npm install -g parcel-bundler
 
 $ cd maps/
 $ npm install
 
+# Build the packages and files:
+$ npm build # OR:
+$ parcel build index.html # manually in the cli
+
 # Run the server and open the browser on http://localhost:1234 with:
 $ parcel index.html
+```
+
+## Deployment
+
+### Netlify
+
+Build command with npx on netflify:
+```
+npx -p parcel-bundler parcel build index.html
 ```
