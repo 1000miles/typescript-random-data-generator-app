@@ -2,7 +2,7 @@ import faker from 'faker';
 import { Mappable } from './CustomMap'
 // export default 'green'; // !DO NOT USE default!
 
-// Every user we create needs to meet the interface requirements
+// Make User satisfy Mappable requirements
 export class User implements Mappable {
   name: string;
   location: {

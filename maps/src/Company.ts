@@ -1,6 +1,7 @@
 import faker from 'faker';
 import { Mappable } from './CustomMap';
 
+// Make Company satisfy Mappable requirements
 export class Company implements Mappable {
   companyName: string;
   catchPhrase: string;
