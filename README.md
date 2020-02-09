@@ -15,6 +15,8 @@ This app is based on following tutorial: https://www.udemy.com/course/typescript
 
 ## Getting started
 
+Before you start make sure to create a project, enable API services and register an API key using Google Maps JavaScript API on https://developers.google.com.
+
 ```shell
 
 $ cd maps/
@@ -30,9 +32,20 @@ $ parcel index.html
 
 ## Deployment
 
-### Netlify
+### Netlify Settings
 
-Build command with npx on netflify:
+- Repository: `github.com/<your-username>/typescript-random-generator-app`
+- Base directory: `maps`
+- Build command: `npm run-script build`
+- Publish directory: `maps/dist`
+
+## Troubleshooting
+
+If you are running into issues to display the GoogleMap on the published site-url similar to this in the browser dev console:
+
 ```
-npx -p parcel-bundler parcel build index.html
+Google Maps JavaScript API error: RefererNotAllowedMapError
+https://developers.google.com/maps/documentation/javascript/error-messages#referer-not-allowed-map-error
+Your site URL to be authorized: https://5e4006544f520e1qw3452566--fancy-jumping-url-723642.netlify.com/
 ```
+Remember to check your billing, API key and settings on Google Cloud Platform.
