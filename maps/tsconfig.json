@@ -1,10 +1,14 @@
 {
   "compilerOptions": {
+    // FIX for Module '"faker"' can only be default-imported using the 'esModuleInterop' flag
     "esModuleInterop": true,
-    "types": ["faker", "googlemaps"]
+    // FIX for "Can not find name googlemaps" after installing
+    // @types/googlemaps.
+    // "types": ["faker", "googlemaps"]
   },
   "include": [
-    "src"
+    "images",
+    "src",
   ],
   "exclude": [
     "node_modules"
