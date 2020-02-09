@@ -25,7 +25,7 @@ export class CustomMap {
       },
     });
   }
-
+  // Reference Mappable to only allow props specified in the interface Mappable
   addMarker(mappable: Mappable): void {
     const marker = new google.maps.Marker({
       map: this.googleMap,
@@ -35,6 +35,7 @@ export class CustomMap {
       }
     });
 
+    // Clicking on the marker popus up an info window for User and Company
     marker.addListener('click', () => {
       const infoWindow = new google.maps.InfoWindow({
         content: mappable.markerContent()
