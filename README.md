@@ -1,8 +1,8 @@
 # TypeScript Random Data Generator App
 
-![Googlemaps Intro](images/googlemaps-intro.jpg)
+A small app to randomly generate data and display them on a GoogleMap using TypeScript.
 
-A small app to randomly generate data and display them on a GoogleMap using TypeScript
+![Googlemaps Intro](/maps/images/googlemaps-intro.jpg)
 
 This app is based on following tutorial: https://www.udemy.com/course/typescript-the-complete-developers-guide/
 
