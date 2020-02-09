@@ -1,17 +1,19 @@
 {
-  "name": "maps",
+  "name": "typescript-random-generator-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A small app to generate data and mark them on a GoogleMap using TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build index.html"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Thuy Le",
+  "license": "MIT",
+  "repository": "git@github.com:1000miles/typescript-random-generator-app.git",
   "dependencies": {
     "@types/faker": "^4.1.9",
     "@types/googlemaps": "^3.39.2",
     "faker": "^4.1.0",
-    "googlemaps": "^1.12.0"
+    "googlemaps": "^1.12.0",
+    "parcel-bundler": "^1.12.4"
   }
 }
