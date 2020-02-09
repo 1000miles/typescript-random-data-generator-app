@@ -2,7 +2,13 @@
 
 A small app to randomly generate data using TypeScript
 
-This repo is the result of the TypeScript tutorial: https://www.udemy.com/course/typescript-the-complete-developers-guide/learn/lecture/15066554#overview
+This repo is one project of following TypeScript tutorial: https://www.udemy.com/course/typescript-the-complete-developers-guide/learn/lecture/15066554#overview
+
+## Tech Stack
+
+- TypeScript
+- faker
+- googlemaps
 
 ## Getting started
 
