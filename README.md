@@ -1,18 +1,20 @@
 # TypeScript Random Data Generator App
 
-A small app to randomly generate data using TypeScript
+A small app to randomly generate data and display them on a GoogleMap using TypeScript
 
-This repo is one project of following TypeScript tutorial: https://www.udemy.com/course/typescript-the-complete-developers-guide/learn/lecture/15066554#overview
+This app is based on following tutorial: https://www.udemy.com/course/typescript-the-complete-developers-guide/
 
 ## Tech Stack
 
-- TypeScript
-- faker
-- googlemaps
+- Parcel (Web Application Bundler)
+- TypeScript (Superset of JavaScript to compile plain JS)
+- Faker (Fake data generator)
+- GoogleMaps
 
 ## Getting started
 
 ```shell
+$ npm install -g parcel-bundler
 
 $ cd maps/
 $ npm install
