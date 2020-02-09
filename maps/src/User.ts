@@ -1,13 +1,15 @@
 import faker from 'faker';
-
+import { Mappable } from './CustomMap'
 // export default 'green'; // !DO NOT USE default!
 
-export class User {
+// Every user we create needs to meet the interface requirements
+export class User implements Mappable {
   name: string;
   location: {
     lat: number;
     lng: number;
   };
+  color: string = "red";
 
   constructor() {
     this.name = faker.name.firstName();
