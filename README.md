@@ -17,6 +17,8 @@ This app is based on following tutorial: https://www.udemy.com/course/typescript
 
 Before you start make sure to create a project, enable API services and register an API key using Google Maps JavaScript API on https://developers.google.com.
 
+⚠️ **For security reasons restrict your API key on Google Cloud Platform to a specified website-url where you publish your project.**
+
 ```shell
 
 $ cd maps/
