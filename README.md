@@ -34,7 +34,7 @@ $ parcel index.html
 
 ### Netlify Settings
 
-- Repository: `github.com/<your-username>/typescript-random-generator-app`
+- Repository: `github.com/<your-username>/typescript-random-data-generator-app`
 - Base directory: `maps`
 - Build command: `npm run-script build`
 - Publish directory: `maps/dist`
